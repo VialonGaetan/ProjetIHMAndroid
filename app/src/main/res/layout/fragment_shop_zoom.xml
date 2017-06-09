@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/titleAndcategoryRL">
+
+        <TextView
+                android:id="@+id/nameShop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        <TextView
+                android:id="@+id/categoryShop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_toEndOf="@id/nameShop2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleAndcategoryRL"
+                    android:id="@+id/descrpAndimageRL">
+
+        <TextView
+                android:id="@+id/fullDescrpShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"/>
+
+        <ImageView
+                android:id="@+id/mainShopView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/descrpAndimageRL"
+            android:layout_marginTop="10dp">
+        <ImageView
+                android:id="@+id/productPhare1"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                app:srcCompat="@mipmap/ic_launcher"/>
+
+        <ImageView
+                android:id="@+id/productPhare2"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

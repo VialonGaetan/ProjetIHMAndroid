@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/title_horaires"
+              android:textSize="24sp"
+              android:textColor="@color/colorOrange"
+              android:id="@+id/title_horaires"
+    android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/horaires"
+              android:textSize="15sp"
+              android:layout_below="@id/title_horaires"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/contact"
+              android:textSize="22sp"
+              android:layout_marginTop="12dp"
+              android:textColor="@color/colorRed"
+              android:text="@string/contact"
+              android:layout_below="@+id/horaires"
+              android:layout_alignStart="@+id/horaires"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorPrimaryDark"
+              android:id="@+id/mail"
+              android:textSize="17sp"
+              android:layout_toEndOf="@id/contact"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:layout_alignTop="@id/contact"
+              android:text="@string/email"/>
+
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_below="@id/mail"
+    android:id="@+id/infoImage"/>
+
+</RelativeLayout>

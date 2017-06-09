@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Cap Sophia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="navigation_bar_shop">Nos magasins</string>
+    <string name="navigation_bar_home">Accueil</string>
+    <string name="navigation_bar_events">Evenements</string>
+    <string name="navigation_bar_weather">Météo</string>
+    <string name="navigation_bar_maps">Carte</string>
+    <string name="navigation_bar_other_infos">Autres informations</string>
+
+
+
+    <string name="category_shop_Jouet">Jouet</string>
+    <string name="category_shop_ModeF">Mode Femme</string>
+    <string name="category_shop_ModeH">Mode Homme</string>
+    <string name="category_shop_ModeE">Mode Enfant</string>
+    <string name="category_shop_Beauty">Beauté</string>
+    <string name="category_shop_Culture">Culture</string>
+    <string name="category_shop_Restauration">Restauration</string>
+    <string name="category_shop_Maison">Maison</string>
+    <string name="category_Tout">Toutes catégories</string>
+    <string name="category_shop_Sport">Sport</string>
+
+
+    <string name="category_event_Concours">Concours</string>
+    <string name="category_event_Stage">Stage</string>
+    <string name="category_event_Formation">Formation</string>
+    <string name="category_event_Loisir">Loisir</string>
+    <string name="category_event_Jeux">Jeux</string>
+
+    <string name="action_settings">Options</string>
+    <string name="category">Categorie</string>
+
+    <string name="shop_name">Nom du magasin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="apply">Appliquer</string>
+
+    <string name="parkingPlace">Places disponible : </string>
+
+    <string name="title_horaires">Horaires d\'ouvertures</string>
+    <string name="horaires">\t<b>Lundi</b> : ouverture à 9h30 et fermeture à 20h45\n
+        \t<b>Mardi</b> : ouverture à 9h30 et fermeture à 20h45\n
+        \t<b>Mercredi</b> : ouverture à 9h30 et fermeture à 22h45\n
+        \t<b>Jeudi</b> : ouverture à 9h30 et fermeture à 20h45\n
+        \t<b>Vendredi</b> : ouverture à 9h30 et fermeture à 21h45\n
+        \t<b>Samedi</b> : ouverture à 8h30 et fermeture à 23h45\n
+        \t<b>Dimanche</b> : ouverture à 8h30 et fermeture à 13h\n
+    </string>
+
+    <string name="bus_context">Pour venir à cap Sophia vous avez accès de nombreux moyens notamment les bus.\n
+    En effet de nombreux bus vous amènent à Cap Sophia pour seulement 1euro.\n
+    \t Liste des bus :</string>
+
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">11111</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="contact">Nous contacter : </string>
+    <string name="email"><a href="mailto:contact@CapSophia.fr"><u>contact@CapSophia.fr</u></a></string>
+
+    <string name="listeligne"><a href="http://envibus-api.koezio.com/uploads/fiche/L001_PS_sept16_koeziov03.pdf"> ligne 1</a>\n
+        <a href="http://www.envibus.fr/doc/L100_nov15v2.pdf">ligne 100</a>\n
+        <a href="http://www.envibus.fr/doc/L022_sept15_thermo.pdf">ligne 22</a>\n
+        <a href="http://leat.unice.fr/documents/Divers/230.pdf">ligne 230</a></string>
+
+    <string name="good_news">Bonne nouvelle</string>
+    <string name="rappel">Rappel</string>
+    <string name="eventDay">Aujourd\'hui est le grand jour pour votre evenement : </string>
+    <string name="welcome">Bienvenue à Cap Sophi@</string>
+
+    <string name="inscription">Vous venez de vous inscrire pour l\'événement : </string>
+    <string name="participer">Participer</string>
+    <string name="unsubscribeEvent">Ne plus participer</string>
+</resources>

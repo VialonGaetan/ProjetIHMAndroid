@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cap Sophia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_bar_shop">Shops</string>
+    <string name="navigation_bar_events">Events</string>
+    <string name="navigation_bar_home">Home</string>
+    <string name="navigation_bar_weather">Weather</string>
+    <string name="navigation_bar_maps">Maps</string>
+    <string name="navigation_bar_other_infos">Others informations</string>
+
+    <string name="category_shop_Jouet">Toy</string>
+    <string name="category_shop_ModeF">Woman fashion</string>
+    <string name="category_shop_ModeH">Men\'s Fashion</string>
+    <string name="category_shop_ModeE">Children\'s Fashion</string>
+    <string name="category_shop_Beauty">Beauty</string>
+    <string name="category_shop_Culture">Culture</string>
+    <string name="category_shop_Restauration">Restauration</string>
+    <string name="category_shop_Maison">Home</string>
+    <string name="category_shop_Sport">Sport</string>
+    <string name="category_Tout">All categories</string>
+    <string name="category">Category</string>
+    <string name="shop_name">Shop Name</string>
+
+    <string name="category_event_Concours">Contest</string>
+    <string name="category_event_Stage">Traineeship</string>
+    <string name="category_event_Formation">Training</string>
+    <string name="category_event_Loisir">Spare-time</string>
+    <string name="category_event_Jeux">Games</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Apply</string>
+    <string name="parkingPlace">Places available :  </string>
+
+    <string name="title_horaires"><u><b>Opening hours</b></u></string>
+    <string name="horaires">\t<b>Monday</b> : open at 9:30 and close at 20:45\n
+        \t<b>Thuesday</b> : open at 9:30 and close at 20:45\n\n
+        \t<b>Wednesday</b> : open at 9:30 and close at 22:45\n\n
+        \t<b>Thursday</b> : open at 9:30 and close at 20:45\n\n
+        \t<b>Friday</b> : open at 9:30 and close at 21:45\n\n
+        \t<b>Saturday</b> : open at 8:30 and close at 23:45\n\n
+        \t<b>Sunday</b> : open at 8:30 and close at 13:\n\n
+    </string>
+
+    <string name="bus_context">To Come to Cap Sophia you have access to many way including buses.\n
+        Indeed many buses take you to Cap Sophia for only 1 euro.\n
+        \t List of buses:</string>
+    <string name="listeligne"><a href="http://envibus-api.koezio.com/uploads/fiche/L001_PS_sept16_koeziov03.pdf"> ligne 1</a>\n
+        <a href="http://www.envibus.fr/doc/L100_nov15v2.pdf">ligne 100</a>\n
+        <a href="http://www.envibus.fr/doc/L022_sept15_thermo.pdf">ligne 22</a>\n
+        <a href="http://leat.unice.fr/documents/Divers/230.pdf">ligne 230</a></string>
+    <string name="contact">Contact us : </string>
+    <string name="good_news">Good news</string>
+    <string name="inscription">You have subscribe for one event : </string>
+    <string name="eventDay">Today is a big day, you have the event : </string>
+    <string name="welcome">Welcome to Cap Sophi@</string>
+    <string name="participer">Participate</string>
+    <string name="unsubscribeEvent">Do not participate anymore</string>
+</resources>

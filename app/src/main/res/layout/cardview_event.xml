@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+
+                                    app:cardBackgroundColor="@android:color/white"
+                                    app:cardCornerRadius="2dp"
+                                    app:cardElevation="2dp">
+
+    <ViewSwitcher
+            android:id="@+id/eventViewSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/mainEventView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/album_cover_height"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:scaleType="fitXY"/>
+
+            <TextView
+                    android:id="@+id/nameEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mainEventView"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:textSize="17sp"/>
+
+            <TextView
+                    android:id="@+id/categoryEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nameEvent"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:textSize="15sp"/>
+
+            <ImageView
+                    android:id="@+id/overflow"
+                    android:layout_width="@dimen/ic_album_overflow_width"
+                    android:layout_height="@dimen/ic_album_overflow_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/mainEventView"
+                    android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_dots"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mainEventView"
+                    android:id="@+id/dateEvent"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    android:layout_toStartOf="@id/overflow"
+            />
+
+        </RelativeLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fullDescrpEvent"/>
+    </ViewSwitcher>
+
+</android.support.v7.widget.CardView>

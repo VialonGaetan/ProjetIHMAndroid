@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/ParkingTitle"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="Parking 1 : "
+              android:textStyle="bold|italic"
+              android:textSize="25dp"
+              android:id="@+id/parking1"
+              android:layout_below="@id/ParkingTitle"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/progressBar_parking1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/parking1"
+            android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/placeAvailibleparking1"
+              android:layout_marginLeft="10dp"
+              android:textSize="15sp"
+              android:layout_below="@id/progressBar_parking1"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="Parking 2 : "
+              android:textStyle="bold|italic"
+              android:textSize="25dp"
+              android:id="@+id/parking2"
+              android:layout_below="@id/placeAvailibleparking1"
+              android:layout_marginTop="10dp"/>
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/progressBar_parking2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/parking2"
+            android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/placeAvailibleparking2"
+              android:layout_marginLeft="10dp"
+              android:textSize="15sp"
+              android:layout_below="@id/progressBar_parking2"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="Parking 3 : "
+              android:textStyle="bold|italic"
+              android:textSize="25dp"
+              android:id="@+id/parking3"
+              android:layout_below="@id/placeAvailibleparking2"
+              android:layout_marginTop="10dp"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/progressBar_parking3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/parking3"
+            android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/placeAvailibleparking3"
+              android:layout_marginLeft="10dp"
+              android:textSize="15sp"
+              android:layout_below="@id/progressBar_parking3"/>
+
+</RelativeLayout>
